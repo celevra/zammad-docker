@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cd /opt/zammad
+export RAILS_ENV=production
 
 if [ ! -f /data/initialized ]; then
-        export RAILS_ENV=production
         rake db:create
         rake db:migrate
         rake db:seed
