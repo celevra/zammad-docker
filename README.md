@@ -4,6 +4,7 @@ a simple zammad Docker Container based on mysql
 first clone the repo
 ```
 git clone https://github.com/celevra/zammad-docker.git
+cd zammad-docker
 ```
 
 then build the Docker Container
