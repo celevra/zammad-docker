@@ -1,0 +1,9 @@
+production:
+  adapter: mysql2
+  pool: 50
+  timeout: 5000
+  encoding: utf8
+  host: <%= ENV['DB_HOST'] %>
+  database: <%= ENV['DB_NAME'] %>
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
